@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class HelloUser extends Activity {
-
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -21,6 +20,7 @@ public class HelloUser extends Activity {
 
 		helloButton.setOnClickListener(new OnClickListener() {
 
+			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(HelloUser.this, FrmHello.class);
 				Bundle bundle = new Bundle();
