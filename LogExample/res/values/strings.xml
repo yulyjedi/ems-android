@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stopLog">Stop log</string>
+    <string name="app_name">AndroidLogExample</string>
+    <string name="description">Logging example</string>
+</resources>
